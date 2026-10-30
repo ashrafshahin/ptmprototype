@@ -1,0 +1,6 @@
+{
+  "name": "Path To Marriage (PTM)",
+  "description": "Matrimonial and matchmaking web application prototype connecting individuals seeking marriage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

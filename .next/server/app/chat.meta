@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(main)/layout,_N_T_/(main)/chat/layout,_N_T_/(main)/chat/page,_N_T_/chat"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KG1haW4p/chat/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/762932a969b2fd7e456eea9f88f4f4addfcb21a744b36a31e411b6fb4a76252d/$/chat",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(main)/chat/page"
+    },
+    "isFallback": false
+  }
+}

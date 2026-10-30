@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/not-found.tsx"],"sourcesContent":["export default function Page() {\n  return <div>Placeholder</div>;\n}\n"],"names":["Page"],"mappings":"uEAAe,SAASA,EACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,eACd"}

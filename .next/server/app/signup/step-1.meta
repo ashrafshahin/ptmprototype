@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(auth)/layout,_N_T_/(auth)/signup/layout,_N_T_/(auth)/signup/step-1/layout,_N_T_/(auth)/signup/step-1/page,_N_T_/signup/step-1"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGF1dGgp/signup/step-1/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 96,
+                "slots": {
+                  "children": {
+                    "hints": 160,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/cbcfdeef435f7391afdafc282db3044f7f5e8aad29a8ae0456ffe1f40239a2ac/$/signup/step-1",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(auth)/signup/step-1/page"
+    },
+    "isFallback": false
+  }
+}

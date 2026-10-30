@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-gradient: linear-gradient(180deg, #E6B757 0%, #B88528 100%);
+    --gold-active: #C5933A;
+    --gold-border: #D5A74E;
+  }
+
+  body {
+    background-color: #0D0D0E;
+    color: #E2E2E6;
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-serif-heading {
+    font-family: var(--font-serif), Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom styling for range sliders */
+input[type='range'] {
+  accent-color: #D5A74E;
+}
+
+/* Hero Section with exact hero-background.png (Rectangle_14345) */
+.hero-leather-texture {
+  background-color: #0E0E10;
+  background-image: url('/assets/ptm/hero-background.png');
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .hero-leather-texture {
+    background-size: cover;
+  }
+}
+
+/* Footer Section with the same hero-background.png texture asset, confined independently */
+.footer-leather-texture {
+  background-color: #0A0A0C;
+  background-image: linear-gradient(180deg, rgba(12, 12, 14, 0.45) 0%, rgba(8, 8, 10, 0.95) 100%), url('/assets/ptm/hero-background.png');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+/* Other sections: Distinct textured black leather backgrounds matching Group 1171275694, Group 1171275695, Group 1171275696 */
+.section-how-it-works-bg {
+  background-color: #111113;
+  background-image: radial-gradient(circle at 50% 40%, rgba(26, 26, 30, 0.35) 0%, rgba(13, 13, 15, 0.96) 100%), url('/assets/ptm/sections-leather-bg.webp');
+  background-size: 900px auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.section-assisted-bg {
+  background-color: #101012;
+  background-image: radial-gradient(circle at 65% 50%, rgba(24, 24, 28, 0.4) 0%, rgba(12, 12, 14, 0.97) 100%), url('/assets/ptm/sections-leather-bg.webp');
+  background-size: 900px auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.section-brand-story-bg {
+  background-color: #0D0D0E;
+  background-image: linear-gradient(180deg, rgba(14, 14, 16, 0.85) 0%, rgba(10, 10, 12, 0.95) 100%), url('/assets/ptm/sections-leather-bg.webp');
+  background-size: 900px auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/* Subtle gold border glow */
+.gold-card-glow {
+  box-shadow: 0 0 0 1px rgba(213, 167, 78, 0.35), 0 16px 40px -10px rgba(0, 0, 0, 0.8);
+}
+
+.gold-highlight-glow {
+  box-shadow: 0 0 0 2px rgba(213, 167, 78, 0.85), 0 20px 48px -8px rgba(213, 167, 78, 0.18), 0 24px 50px -12px rgba(0, 0, 0, 0.9);
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D5A74E;
+}
