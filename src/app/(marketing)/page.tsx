@@ -169,7 +169,7 @@ export default function LandingPage() {
         )}
 
         {/* --- Hero Banner Content --- */}
-        <div className="relative z-10 w-full max-w-360 mx-auto px-6 sm:px-12 lg:px-24 pt-4 pb-20 lg:pt-8 lg:pb-28">
+        <div className="relative z-10 w-full max-w-360 mx-auto px-6 sm:px-12 lg:px-24 pt-4 pb-20 lg:pt-8 lg:pb-21">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
 
             {/* Left: Monogram Area with the Original Black-Leather Monogram Watermark Background and Gold Foil Crest */}
@@ -208,7 +208,7 @@ export default function LandingPage() {
             <div className="lg:col-span-6 w-full flex justify-center lg:justify-end">
               <form
                 onSubmit={handleSearchSubmit}
-                className="w-full max-w-[540px] rounded-3xl bg-[#161618]/90 border border-[#2B2B32] p-6 sm:p-7 backdrop-blur-md shadow-[0_20px_50px_rgba(0,0,0,0.85)]"
+                className="w-full max-w-135 rounded-3xl bg-[#161618]/90 border border-[#2B2B32] p-6 sm:p-7 backdrop-blur-md shadow-[0_20px_50px_rgba(0,0,0,0.85)]"
               >
                 {/* Title */}
                 <h2 className="text-center font-serif text-[22px] sm:text-[24px] text-white tracking-wide mb-5">
@@ -473,7 +473,7 @@ export default function LandingPage() {
       {/* 2. HOW IT WORKS (Separate stone textured background & gold glow) */}
       {/* ============================================================ */}
       <section className="relative w-full section-how-it-works-bg border-b border-[#202024] py-20 lg:py-28">
-        <div className="max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-24">
+        <div className="max-w-360 mx-auto px-6 sm:px-12 lg:px-24">
           {/* Section Heading */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-[30px] sm:text-[36px] lg:text-[40px] text-white tracking-wide mb-3">

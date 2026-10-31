@@ -416,7 +416,6 @@
     --spacing: .25rem;
     --container-2xl: 42rem;
     --container-3xl: 48rem;
-    --container-5xl: 64rem;
     --container-6xl: 72rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
@@ -922,10 +921,6 @@
     max-width: var(--container-3xl);
   }
 
-  .max-w-5xl {
-    max-width: var(--container-5xl);
-  }
-
   .max-w-6xl {
     max-width: var(--container-6xl);
   }
@@ -938,24 +933,12 @@
     max-width: calc(var(--spacing) * 85);
   }
 
-  .max-w-122\.5 {
-    max-width: calc(var(--spacing) * 122.5);
+  .max-w-135 {
+    max-width: calc(var(--spacing) * 135);
   }
 
   .max-w-360 {
     max-width: calc(var(--spacing) * 360);
-  }
-
-  .max-w-\[280px\] {
-    max-width: 280px;
-  }
-
-  .max-w-\[540px\] {
-    max-width: 540px;
-  }
-
-  .max-w-\[1440px\] {
-    max-width: 1440px;
   }
 
   .flex-1 {
@@ -1149,9 +1132,9 @@
     border-width: 1px;
   }
 
-  .border-x {
-    border-inline-style: var(--tw-border-style);
-    border-inline-width: 1px;
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0;
   }
 
   .border-y {
@@ -1339,11 +1322,6 @@
   }
 
   .bg-linear-to-r {
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-
-  .bg-gradient-to-r {
-    --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
@@ -2007,6 +1985,11 @@
     .md\:grid-cols-12 {
       grid-template-columns: repeat(12, minmax(0, 1fr));
     }
+
+    .md\:border {
+      border-style: var(--tw-border-style);
+      border-width: 1px;
+    }
   }
 
   @media (min-width: 64rem) {
@@ -2082,8 +2065,8 @@
       padding-top: calc(var(--spacing) * 8);
     }
 
-    .lg\:pb-28 {
-      padding-bottom: calc(var(--spacing) * 28);
+    .lg\:pb-21 {
+      padding-bottom: calc(var(--spacing) * 21);
     }
 
     .lg\:text-left {
@@ -2102,34 +2085,41 @@ input[type="range"] {
 
 .hero-leather-texture {
   background-color: #0e0e10;
-  background-image: url("/assets/ptm/hero-background.png");
-  background-position: top;
+  background-image: url("/assets/ptm/hero-background111.png");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 1024px) {
+  .hero-leather-texture {
+    background-position: top;
+    background-size: cover;
+  }
 }
 
 .section-how-it-works-bg {
   background-color: #111113;
   background-image: radial-gradient(circle at 50% 40%, #1a1a1e59 0%, #0d0d0ff5 100%), url("/assets/ptm/sections-leather-bg.webp");
   background-position: center;
-  background-repeat: repeat;
-  background-size: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-assisted-bg {
   background-color: #101012;
   background-image: radial-gradient(circle at 65%, #18181c66 0%, #0c0c0ef7 100%), url("/assets/ptm/sections-leather-bg.webp");
   background-position: center;
-  background-repeat: repeat;
-  background-size: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-brand-story-bg {
   background-color: #0d0d0e;
   background-image: linear-gradient(#0e0e10d9 0%, #0a0a0cf2 100%), url("/assets/ptm/sections-leather-bg.webp");
   background-position: center;
-  background-repeat: repeat;
-  background-size: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-leather-texture {
@@ -2169,6 +2159,13 @@ input[type="range"] {
 @media (max-width: 1024px) {
   .hero-leather-texture {
     background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-how-it-works-bg {
+    background-color: #111113;
+    background-image: none;
   }
 }
 
