@@ -83,7 +83,7 @@ function LandingPage() {
                 className: "relative w-full hero-leather-texture border-b border-[#222226] overflow-hidden",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                        className: "relative z-20 w-full max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-24 h-24 flex items-center justify-between",
+                        className: "relative z-20 w-full max-w-360 mx-auto px-6 sm:px-12 lg:px-24 h-24 flex items-center justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
@@ -244,14 +244,14 @@ function LandingPage() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-24 pt-4 pb-20 lg:pt-8 lg:pb-28",
+                        className: "relative z-10 w-full max-w-360 mx-auto px-6 sm:px-12 lg:px-24 pt-4 pb-20 lg:pt-8 lg:pb-28",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "lg:col-span-6 flex justify-center items-center py-4 lg:py-6",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative w-[300px] h-[340px] sm:w-[380px] sm:h-[420px] lg:w-[460px] lg:h-[480px] flex items-center justify-center",
+                                        className: "relative w-75 h-85 sm:w-95 sm:h-105 lg:w-115 lg:h-120 flex items-center justify-center",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 flex items-center justify-center pointer-events-none",
@@ -274,7 +274,7 @@ function LandingPage() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative z-10 w-[240px] sm:w-[300px] lg:w-[340px]",
+                                                className: "relative z-10 w-60 sm:w-75 lg:w-85",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
                                                     src: "/assets/ptm/ptm-monogram.png",
                                                     alt: "PTM Crest",
@@ -307,7 +307,7 @@ function LandingPage() {
                                     className: "lg:col-span-6 w-full flex justify-center lg:justify-end",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                         onSubmit: handleSearchSubmit,
-                                        className: "w-full max-w-[490px] rounded-[24px] bg-[#161618]/90 border border-[#2B2B32] p-6 sm:p-7 backdrop-blur-md shadow-[0_20px_50px_rgba(0,0,0,0.85)]",
+                                        className: "w-full max-w-[540px] rounded-3xl bg-[#161618]/90 border border-[#2B2B32] p-6 sm:p-7 backdrop-blur-md shadow-[0_20px_50px_rgba(0,0,0,0.85)]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "text-center font-serif text-[22px] sm:text-[24px] text-white tracking-wide mb-5",
@@ -334,7 +334,7 @@ function LandingPage() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 type: "button",
                                                                 onClick: ()=>setPremiumOnly('any'),
-                                                                className: `flex-1 py-2 text-center rounded-full font-medium transition-all cursor-pointer ${premiumOnly === 'any' ? 'bg-gradient-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
+                                                                className: `flex-1 py-2 text-center rounded-full font-medium transition-all cursor-pointer ${premiumOnly === 'any' ? 'bg-linear-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
                                                                 children: "Any"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(marketing)/page.tsx",
@@ -344,7 +344,7 @@ function LandingPage() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 type: "button",
                                                                 onClick: ()=>setPremiumOnly('premium_only'),
-                                                                className: `flex-1 py-2 text-center rounded-full font-medium transition-all cursor-pointer ${premiumOnly === 'premium_only' ? 'bg-gradient-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
+                                                                className: `flex-1 py-2 text-center rounded-full font-medium transition-all cursor-pointer ${premiumOnly === 'premium_only' ? 'bg-linear-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
                                                                 children: "Premium Only"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(marketing)/page.tsx",
@@ -384,7 +384,7 @@ function LandingPage() {
                                                         ].map((status)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                 type: "button",
                                                                 onClick: ()=>setMaritalStatus(status),
-                                                                className: `py-2 rounded-full capitalize font-medium transition-all cursor-pointer ${maritalStatus === status ? 'bg-gradient-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
+                                                                className: `py-2 rounded-full capitalize font-medium transition-all cursor-pointer ${maritalStatus === status ? 'bg-linear-to-r from-[#DFAD48] to-[#B68429] text-black shadow-xs font-semibold' : 'text-[#AAAAAA] hover:text-white'}`,
                                                                 children: status
                                                             }, status, false, {
                                                                 fileName: "[project]/src/app/(marketing)/page.tsx",
@@ -953,7 +953,7 @@ function LandingPage() {
                                                 className: "flex justify-center",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
-                                                    className: "w-44 py-2.5 rounded-xl bg-gradient-to-r from-[#DFAD48] via-[#CA973B] to-[#B38127] text-black font-semibold text-xs tracking-wider shadow-md hover:brightness-105 active:scale-[0.99] transition-all cursor-pointer",
+                                                    className: "w-44 py-2.5 rounded-xl bg-linear-to-r from-[#DFAD48] via-[#CA973B] to-[#B38127] text-black font-semibold text-xs tracking-wider shadow-md hover:brightness-105 active:scale-[0.99] transition-all cursor-pointer",
                                                     children: "Submit"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(marketing)/page.tsx",
@@ -1024,7 +1024,7 @@ function LandingPage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "hidden md:grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto items-stretch",
+                            className: "hidden md:grid md:grid-cols-3 gap-6 lg:gap-8 w-full max-w-6xl mx-auto items-stretch",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "rounded-[22px] bg-[#161619] border border-[#2B2B32] overflow-hidden flex flex-col shadow-[0_16px_40px_rgba(0,0,0,0.7)]",
@@ -1103,7 +1103,7 @@ function LandingPage() {
                                     className: "rounded-[22px] bg-[#171616] gold-highlight-glow overflow-hidden flex flex-col relative scale-[1.02] z-10",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "bg-gradient-to-r from-[#DFAD48] via-[#C5933A] to-[#A87622] py-4 text-center",
+                                            className: "bg-linear-to-r from-[#DFAD48] via-[#C5933A] to-[#A87622] py-4 text-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "font-serif text-base text-black font-bold",
                                                 children: "Premium account"
@@ -1278,10 +1278,10 @@ function LandingPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-full max-w-[280px] rounded-[22px] bg-[#171616] gold-highlight-glow overflow-hidden flex flex-col mx-2 z-10 shrink-0",
+                                    className: "w-full max-w-70 rounded-[22px] bg-[#171616] gold-highlight-glow overflow-hidden flex flex-col mx-2 z-10 shrink-0",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "bg-gradient-to-r from-[#DFAD48] via-[#C5933A] to-[#A87622] py-4 text-center",
+                                            className: "bg-linear-to-r from-[#DFAD48] via-[#C5933A] to-[#A87622] py-4 text-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "font-serif text-sm text-black font-bold",
                                                 children: "Premium account"
@@ -1385,9 +1385,9 @@ function LandingPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "relative w-full section-assisted-bg border-b border-[#202024] py-20 lg:py-28",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-24",
+                    className: "max-w-360 mx-auto px-6 sm:px-12 lg:px-24",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center max-w-5xl mx-auto",
+                        className: "grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center max-w-6xl mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "lg:col-span-5 text-center lg:text-left",
@@ -1430,7 +1430,7 @@ function LandingPage() {
                                 className: "lg:col-span-7 flex justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     onClick: ()=>setIsVideoPlaying(!isVideoPlaying),
-                                    className: "relative w-full aspect-[16/10] rounded-[24px] bg-[#141416] border border-[#D5A74E]/40 flex items-center justify-center cursor-pointer group shadow-[0_20px_50px_rgba(0,0,0,0.8)] overflow-hidden hover:border-[#D5A74E] transition-all",
+                                    className: "relative w-full aspect-16/10 rounded-3xl bg-[#141416] border border-[#D5A74E]/40 flex items-center justify-center cursor-pointer group shadow-[0_20px_50px_rgba(0,0,0,0.8)] overflow-hidden hover:border-[#D5A74E] transition-all",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-radial from-transparent to-black/80 pointer-events-none"
@@ -1483,10 +1483,10 @@ function LandingPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "relative w-full section-brand-story-bg border-b border-[#202024]",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1440px] mx-auto",
+                    className: "w-full",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "hidden md:grid md:grid-cols-3 max-w-5xl mx-auto items-stretch border-x border-[#1F1F24]",
+                            className: "hidden md:grid md:grid-cols-3 w-full items-stretch border-y border-[#D5A74E]/50",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "p-10 lg:p-12 flex flex-col justify-center text-center bg-[#111113] border-b border-r border-[#1F1F24]",
@@ -1624,7 +1624,7 @@ function LandingPage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "md:hidden flex flex-col max-w-[340px] mx-auto py-12 space-y-6",
+                            className: "md:hidden flex flex-col max-w-85 mx-auto py-12 space-y-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative aspect-square rounded-2xl overflow-hidden shadow-md",
@@ -1775,7 +1775,7 @@ function LandingPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                 className: "relative w-full footer-leather-texture",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-24 pt-16 pb-12",
+                    className: "max-w-360 mx-auto px-6 sm:px-12 lg:px-24 pt-16 pb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-8 pb-12",
@@ -2132,7 +2132,7 @@ function LandingPage() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
-                                                    className: "inline-flex items-center justify-center gap-1.5 px-5 py-2 rounded-xl bg-gradient-to-r from-[#DFAD48] to-[#B38127] text-black font-semibold text-xs tracking-wide hover:brightness-105 active:scale-[0.99] transition-all cursor-pointer",
+                                                    className: "inline-flex items-center justify-center gap-1.5 px-5 py-2 rounded-xl bg-linear-to-r from-[#DFAD48] to-[#B38127] text-black font-semibold text-xs tracking-wide hover:brightness-105 active:scale-[0.99] transition-all cursor-pointer",
                                                     children: [
                                                         "Submit ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {

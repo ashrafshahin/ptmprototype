@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\n  \"app\": {},\n  \"appUsingSizeAdjust\": false,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"
+self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/src/app/(marketing)/page\": [\n      \"static/media/a9c3112d7f302c72-s.p.2vlz8g1dgmmqq.woff2\",\n      \"static/media/65341aea9fb91af5-s.p.1dqa_6e_ad4sj.woff2\"\n    ]\n  },\n  \"appUsingSizeAdjust\": true,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"
